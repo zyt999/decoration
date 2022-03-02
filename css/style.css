@@ -117,3 +117,9 @@ header .navbar {
   font-size: 0.8rem;
   color: #ffaa00;
 }
+.online {
+  margin-top: 3rem;
+}
+.online img {
+  width: 100%;
+}
