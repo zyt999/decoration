@@ -52,6 +52,14 @@ header{
         }
     }
 }
+.title{
+    h2{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        border-left: .5rem solid #ffaa00;
+        padding-left: .5rem;
+    }
+}
 .service{
     text-align: center;
     .card {
@@ -68,20 +76,57 @@ header{
         font-size: .5rem;
         color: #666666;
     }
-    a{
-        text-decoration: none;
-        color: #ffaa00;
-        border-radius: 2rem;
-        display: inline-block;
-        border: 1px solid #ffaa00;
-        padding: .5rem 2.5rem;
-        font-size: .8rem;
-        background-color: #fffaf1;
-        margin-top: 1rem;
-        margin-bottom: .3rem;
+    .card-body{
+        a{
+            text-decoration: none;
+            color: #ffaa00;
+            border-radius: .5rem;
+            display: inline-block;
+            border: 1px solid #ffaa00;
+            padding: .5rem 2.5rem;
+            font-size: .8rem;
+            background-color: #fffaf1;
+            margin-top: 1rem;
+            margin-bottom: .3rem;
+        }
+        .card-title{
+            font-weight: bold;
+            margin-bottom: .5rem;
+        }
+
     }
-    .card-title{
-        font-weight: bold;
-        margin-bottom: .5rem;
+   
+}
+.case_list{
+    .card{
+        position: relative;
+        border: none;
+        border-radius: 2rem;
+        img{
+            border-radius: .5rem; 
+        }
+    }
+    .card-body{
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+        background-color: rgba(255, 255, 255, .8);
+        border-radius: .3rem;
+        width: 22rem;
+        .card-title{
+            font-size: 1.05rem;   
+        }
+        .card-text{
+            .card-time{
+                float: left;
+                font-size: .8rem;
+                color: #666666;;
+            }
+            .card-price{
+                float: right;
+                font-size: .8rem;
+                color: #ffaa00;
+            }
+        }
     }
 }

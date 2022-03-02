@@ -49,6 +49,12 @@ header .navbar {
   width: 100%;
   margin: 0 auto;
 }
+.title h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-left: 0.5rem solid #ffaa00;
+  padding-left: 0.5rem;
+}
 .service {
   text-align: center;
 }
@@ -66,10 +72,10 @@ header .navbar {
   font-size: 0.5rem;
   color: #666666;
 }
-.service a {
+.service .card-body a {
   text-decoration: none;
   color: #ffaa00;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   display: inline-block;
   border: 1px solid #ffaa00;
   padding: 0.5rem 2.5rem;
@@ -78,7 +84,36 @@ header .navbar {
   margin-top: 1rem;
   margin-bottom: 0.3rem;
 }
-.service .card-title {
+.service .card-body .card-title {
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+.case_list .card {
+  position: relative;
+  border: none;
+  border-radius: 2rem;
+}
+.case_list .card img {
+  border-radius: 0.5rem;
+}
+.case_list .card-body {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.3rem;
+  width: 22rem;
+}
+.case_list .card-body .card-title {
+  font-size: 1.05rem;
+}
+.case_list .card-body .card-text .card-time {
+  float: left;
+  font-size: 0.8rem;
+  color: #666666;
+}
+.case_list .card-body .card-text .card-price {
+  float: right;
+  font-size: 0.8rem;
+  color: #ffaa00;
 }
