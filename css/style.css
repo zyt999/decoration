@@ -123,3 +123,64 @@ header .navbar {
 .online img {
   width: 100%;
 }
+.star .col-4,
+.star .col,
+.star .col-2 {
+  padding: 0;
+}
+.star .star_g img {
+  width: 100%;
+}
+.star .star_text {
+  display: inline-flex;
+  align-items: flex-end;
+}
+.star .star_text .star_con {
+  width: 100%;
+  height: 24rem;
+  background-color: #f6f6f6;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
+.star .star_text .star_con .star-title {
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.star .star_text .star_con .star-title h3 {
+  float: left;
+  font-size: 1.5rem;
+}
+.star .star_text .star_con .star-title span {
+  float: left;
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  color: #999999;
+}
+.star .star_text .star_con p {
+  clear: both;
+  color: #666666;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+.star .star_s {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.star .star_s img {
+  height: 10rem;
+}
+.star .star_s a {
+  display: block;
+  border: 0.3rem solid transparent;
+  border-radius: 0.5rem;
+}
+.star .star_s a:hover {
+  border: 0.3rem solid #ffaa00;
+}
