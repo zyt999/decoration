@@ -1,0 +1,43 @@
+header {
+  height: 4rem;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  align-items: stretch;
+}
+header .navbar-collapse {
+  flex-grow: 0;
+  align-items: stretch;
+}
+header .navbar-nav {
+  height: 100%;
+}
+header .nav-link {
+  padding: 0 2rem !important;
+  line-height: 4rem;
+}
+header .nav-item {
+  vertical-align: middle;
+  align-items: stretch;
+}
+header .container-fluid,
+header .collapse {
+  height: 100%;
+}
+header .active {
+  background-color: #484848;
+  color: #ffaa00 !important;
+}
+header .navbar-collapse {
+  background-color: #333333;
+}
+header .navbar-collapse a:hover {
+  background-color: #484848;
+  color: #ffaa00 !important;
+}
+header .nav-item {
+  background-color: #333333;
+}
+.navbar {
+  padding: 0;
+}
