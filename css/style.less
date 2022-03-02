@@ -203,3 +203,104 @@ header{
         }
     }
 }
+.inf{
+    .card{
+        // border-radius: .3rem;
+        border: none;
+    }
+    .card-head{
+        display: inline-block;
+        height: 10rem;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        border-radius: .3rem .3rem 0 0;
+        background: url(../images/inf01.png) no-repeat;
+        h2{
+            margin-top: 3rem;
+        }
+    }
+    .card-body{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background-color: #f8f8f8;
+        border-radius: 0 0 .3rem .3rem;
+        li{
+            border-bottom: 1px solid #eeeeee;
+            height: 4.5rem;
+            line-height: 4.5rem;
+            a{
+                text-decoration: none;
+                padding: 0 1rem;
+                display: block;
+                color: #333333;
+                p{
+                    float: left;
+                    padding: 0;
+                    margin:0;
+                }
+                span{
+                    float: right;
+                    color: #666666;
+                }
+            }
+        }
+        li:last-child{
+            border: none;
+        }
+        
+    }
+    form{
+        float:right;
+        height: 600px;
+        width: 440px;
+        padding: 0 40px;
+        background-color: #f8f8f8;
+        margin-right: 1.25rem;
+        border-radius: .3rem;
+     }
+     form h2{
+         color: #333333;
+         font-size: 36px;
+         text-align: center;
+         margin: 20px 0;
+     }
+     form p{
+         font-size: #333333;
+         margin-bottom: 0;
+         font-weight: 600;
+     }
+     form input,select{
+         width: 340px;
+         height: 48px;
+         outline: snow;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         margin: 10px 0 20px 0;
+         padding: 0 10px;
+         font-size: #333333;
+     }
+     .layui-unselect{
+         width: 340px !important;
+     }
+     form label{
+         color: red;
+         margin-left: 5px;
+     }
+     .layui-form-select dl dd.layui-this {
+         background-color: #ffaa00;
+     
+     }
+     form button{
+         width: 340px;
+         height: 60px;
+         background-color: #ffaa00;
+         color: #fff;
+         border: none;
+         margin-top: 10px;
+         border-radius: 5px;
+         
+     }
+}
+

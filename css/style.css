@@ -184,3 +184,98 @@ header .navbar {
 .star .star_s a:hover {
   border: 0.3rem solid #ffaa00;
 }
+.inf .card {
+  border: none;
+}
+.inf .card-head {
+  display: inline-block;
+  height: 10rem;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.3rem 0.3rem 0 0;
+  background: url(../images/inf01.png) no-repeat;
+}
+.inf .card-head h2 {
+  margin-top: 3rem;
+}
+.inf .card-body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #f8f8f8;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+.inf .card-body li {
+  border-bottom: 1px solid #eeeeee;
+  height: 4.5rem;
+  line-height: 4.5rem;
+}
+.inf .card-body li a {
+  text-decoration: none;
+  padding: 0 1rem;
+  display: block;
+  color: #333333;
+}
+.inf .card-body li a p {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.inf .card-body li a span {
+  float: right;
+  color: #666666;
+}
+.inf .card-body li:last-child {
+  border: none;
+}
+.inf form {
+  float: right;
+  height: 600px;
+  width: 440px;
+  padding: 0 40px;
+  background-color: #f8f8f8;
+  margin-right: 1.25rem;
+  border-radius: 0.3rem;
+}
+.inf form h2 {
+  color: #333333;
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+}
+.inf form p {
+  font-size: #333333;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.inf form input,
+.inf select {
+  width: 340px;
+  height: 48px;
+  outline: snow;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+  padding: 0 10px;
+  font-size: #333333;
+}
+.inf .layui-unselect {
+  width: 340px !important;
+}
+.inf form label {
+  color: red;
+  margin-left: 5px;
+}
+.inf .layui-form-select dl dd.layui-this {
+  background-color: #ffaa00;
+}
+.inf form button {
+  width: 340px;
+  height: 60px;
+  background-color: #ffaa00;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
