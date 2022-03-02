@@ -38,6 +38,13 @@ header .navbar-collapse a:hover {
 header .nav-item {
   background-color: #333333;
 }
-.navbar {
+header .navbar {
   padding: 0;
+}
+.banner ul {
+  list-style: none;
+  padding: 0;
+}
+.banner ul li img {
+  width: 100%;
 }
