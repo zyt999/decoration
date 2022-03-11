@@ -186,6 +186,7 @@ header .navbar {
 }
 .inf .card {
   border: none;
+  background-color: #f8f8f8;
 }
 .inf .card-head {
   display: inline-block;
@@ -203,13 +204,12 @@ header .navbar {
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: #f8f8f8;
   border-radius: 0 0 0.3rem 0.3rem;
 }
 .inf .card-body li {
   border-bottom: 1px solid #eeeeee;
-  height: 4.5rem;
-  line-height: 4.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
 }
 .inf .card-body li a {
   text-decoration: none;
@@ -231,11 +231,9 @@ header .navbar {
 }
 .inf form {
   float: right;
-  height: 600px;
-  width: 440px;
-  padding: 0 40px;
+  margin: 0 auto;
+  width: 20rem;
   background-color: #f8f8f8;
-  margin-right: 1.25rem;
   border-radius: 0.3rem;
 }
 .inf form h2 {
@@ -243,6 +241,7 @@ header .navbar {
   font-size: 36px;
   text-align: center;
   margin: 20px 0;
+  font-size: 1.5rem;
 }
 .inf form p {
   font-size: #333333;
@@ -251,12 +250,12 @@ header .navbar {
 }
 .inf form input,
 .inf select {
-  width: 340px;
-  height: 48px;
+  width: 20rem;
+  height: 2.5rem;
   outline: snow;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 10px 0 20px 0;
+  margin: 5px 0 1rem 0;
   padding: 0 10px;
   font-size: #333333;
 }
@@ -271,8 +270,8 @@ header .navbar {
   background-color: #ffaa00;
 }
 .inf form button {
-  width: 340px;
-  height: 60px;
+  width: 20rem;
+  height: 3rem;
   background-color: #ffaa00;
   color: #fff;
   border: none;
