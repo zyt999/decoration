@@ -1,3 +1,67 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 6px;
+  }
+  header {
+    height: 8rem !important;
+  }
+  header .navbar-collapse {
+    z-index: 999;
+    margin-top: 0.4rem;
+  }
+  .banner {
+    height: 150px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .inf .card-body li {
+    height: 6rem !important;
+    line-height: 6rem !important;
+  }
+  .inf .card-body li a {
+    display: block;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 576px) {
+  header .navbar-collapse {
+    z-index: 999;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  header .navbar-collapse {
+    z-index: 999;
+  }
+  .inf .card-body a span {
+    display: none;
+  }
+  .inf .card-body a p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0 !important;
+  }
+  .layui-form {
+    display: none;
+  }
+  header .navbar-collapse {
+    z-index: 999;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
 header {
   height: 4rem;
   width: 100%;
@@ -38,9 +102,6 @@ header .navbar-collapse a:hover {
 header .nav-item {
   background-color: #333333;
 }
-header .navbar {
-  padding: 0;
-}
 .banner ul {
   list-style: none;
   padding: 0;
@@ -57,6 +118,7 @@ header .navbar {
 }
 .service {
   text-align: center;
+  padding-top: 2rem;
 }
 .service .card {
   background-color: #f8f8f8;
@@ -122,8 +184,8 @@ header .navbar {
 }
 .case_list .card-body {
   position: absolute;
-  bottom: 7.5%;
-  left: 2rem;
+  bottom: 2rem;
+  left: 7.5%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.3rem;
   width: 85%;
@@ -225,6 +287,7 @@ header .navbar {
   text-decoration: none;
   border-radius: 0.3rem 0.3rem 0 0;
   background: url(../images/inf01.png) no-repeat;
+  background-size: 100%;
 }
 .inf .card-head h2 {
   margin-top: 3rem;
@@ -307,6 +370,7 @@ header .navbar {
 .inf form button {
   width: 20rem;
   height: 3rem;
+  line-height: 3rem;
   background-color: #ffaa00;
   color: #fff;
   border: none;
@@ -319,6 +383,7 @@ footer {
   overflow: hidden;
   margin-top: 4rem;
   background-color: #1a1a1a;
+  padding-bottom: 5rem;
 }
 footer .foot_logo {
   padding-top: 3rem;
@@ -372,9 +437,6 @@ footer ul li {
 .swiper {
   margin-left: auto;
   margin-right: auto;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 3rem;
 }
 .swiper-pagination-bullet {
   width: 2rem;

@@ -1,3 +1,99 @@
+@media screen and (max-width:576px){
+    html{
+        font-size: 6px;
+    }
+    header{
+        height: 8rem !important;
+    }
+    header .navbar-collapse{
+        z-index:999;
+        margin-top: .4rem;
+    }
+    .banner{
+        height: 150px;
+        img{width: 100%;}
+    }
+    .inf{
+        .card-body{
+            li{
+                
+                height: 6rem !important;
+                line-height: 6rem !important;
+                // line-height: 8rem;
+                a{
+                    display: block;
+                    font-size: 14px;
+                    
+                    
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:576px){
+    header .navbar-collapse{
+        z-index:999;
+    }
+
+}
+
+
+
+@media screen and (min-width:768px){
+    html{
+        font-size: 10px;
+    }
+      .navbar {
+        padding: 0;
+    }
+    header .navbar-collapse{
+        z-index:999;
+        // margin-bottom: 1rem;
+    }
+    .row{
+        .card-body{
+            a{
+                // font-size: .5rem;
+            }
+        }
+    }
+    .inf{
+        .card-body{
+            a{
+                span{
+                    display: none;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+   
+    
+}
+@media screen and (min-width:992px){
+    html{
+        // font-size: 10px;
+    }
+    .navbar {
+      padding: 0 !important;
+  }
+  .layui-form {
+      display: none;
+  }
+  header .navbar-collapse{
+      z-index:999;
+    //   margin-top: .4rem;
+  }
+  
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 16px;
+    }
+}
+
 header {
     height: 4rem;
     width: 100%;
@@ -47,11 +143,12 @@ header {
         background-color: #333333;
     }
 
-    .navbar {
-        padding: 0;
-    }
+    // .navbar {
+    //     padding: 0;
+    // }
 }
 
+// 轮播图
 .banner {
     ul {
         list-style: none;
@@ -78,6 +175,7 @@ header {
 // 服务咨询
 .service {
     text-align: center;
+    padding-top: 2rem;
 
     .card {
         background-color: #f8f8f8;
@@ -165,8 +263,8 @@ header {
 
     .card-body {
         position: absolute;
-        bottom: 7.5%;
-        left: 2rem;
+        bottom: 2rem;
+        left: 7.5%;
         background-color: rgba(255, 255, 255, .8);
         border-radius: .3rem;
         width: 85%;
@@ -302,6 +400,7 @@ header {
         text-decoration: none;
         border-radius: .3rem .3rem 0 0;
         background: url(../images/inf01.png) no-repeat;
+        background-size: 100%;
 
         h2 {
             margin-top: 3rem;
@@ -379,10 +478,6 @@ header {
         margin-bottom: 0;
         font-weight: 600;
     }
-    .layui-input{
-        // display: inline-block;
-        // float: left;
-    }
     form input,
     select {
         width: 20rem;
@@ -410,6 +505,7 @@ header {
     form button {
         width: 20rem;
         height: 3rem;
+        line-height: 3rem;
         background-color: #ffaa00;
         color: #fff;
         border: none;
@@ -425,6 +521,7 @@ footer {
     overflow: hidden;
     margin-top: 4rem;
     background-color: #1a1a1a;
+    padding-bottom: 5rem;
 
     .foot_logo {
         padding-top: 3rem;
@@ -493,9 +590,9 @@ footer {
     margin-right: auto;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: 3rem;
-}
+// .swiper-container-horizontal>.swiper-pagination-bullets {
+//     bottom: 3rem;
+// }
 
 .swiper-pagination-bullet {
     width: 2rem;
